@@ -1,6 +1,6 @@
 # Floydwarshall
 
-Floydwarshall is a directory that contains a function with a recursive version of the Floyd-Warshall algorithm. This algorithm is used to find the shortest paths in a graph that has edge direction and works for positive and/or negative weights, provided there are no negative cycles.
+Floydwarshall is a directory that contains a function that uses recursion for Floyd-Warshall algorithm. This algorithm is used to find the shortest paths in a graph that has edge direction and works for positive and/or negative weights, provided there are no negative cycles.
 
 ## Installation
 Use the package manager pip to install the package.

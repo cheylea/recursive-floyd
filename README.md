@@ -23,7 +23,8 @@ from floydwarshall.function import floydWarshall
 # Use value for infinity to denote edges that do not exist
 INF = float('inf')
 
-# Add weights into a list with graph[i][j] meaning "the direct weight from i to j" assuming each vertex is numbered consecutively from 0
+# Add weights into a list with graph[i][j] meaning "the direct weight from i to j" 
+# assuming each vertex is numbered consecutively from 0
 graph = [[0, INF, 10],
          [INF, 0, INF],
          [INF, 2, 0]]

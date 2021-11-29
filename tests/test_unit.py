@@ -1,6 +1,11 @@
 # Unit Tests for the Flord Warshall function
 
-# Update path
+# Update PYTHON Path (Source below)
+""" Title: Relative imports in Python 3
+Author: E-rich
+Date: 10th Nov. 2021
+Code version: 1.0
+Availability: https://stackoverflow.com/questions/16981921/relative-imports-in-python-3 """
 import sys
 import os
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))

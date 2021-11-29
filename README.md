@@ -37,6 +37,17 @@ output = [[0, 12, 10],
           [INF, 2, 0]]
 ```
 
+## Runnning Unit Tests
+To run the unit tests use the following in the terminal for the test_cases.py file, or substitute with your own test cases.
+```
+python -m unittest tests/test_cases.py
+```
+
+## Runnning Performance Tests
+To run the performance tests use the following in the terminal for the test_cases.py file, or substitute with your own test cases.
+```
+python -m cProfile tests/test_cases.py
+```
 
 ## Contributing
 Pull requests permitted. When contributing please update the test directory as appropriate with any additional requirements. 
